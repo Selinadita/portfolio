@@ -25,11 +25,6 @@ export default function Hero() {
         <h1 className="text-6xl lg:text-6xl font-semibold leading-tight text-[#f48fb1]">
           I Build Beautiful Web Experiences
         </h1>
-        <img
-          src={assets.icon2}
-          alt="icon"
-          className="hidden md:block relative h-10 w-auto object-contain left-80 bottom-4"
-        />
         <p className=" text-lg text-[#746c7c] leading-relaxed max-w-xl">
           I create responsive and user-friendly websites with clean code, modern
           design, and intuitive experiences that help brands stand out in the
