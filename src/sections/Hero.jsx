@@ -28,7 +28,7 @@ export default function Hero() {
         <img
           src={assets.icon2}
           alt="icon"
-          className="relative h-10 w-auto object-contain left-80 bottom-4"
+          className="hidden md:block relative h-10 w-auto object-contain left-80 bottom-4"
         />
         <p className=" text-lg text-[#746c7c] leading-relaxed max-w-xl">
           I create responsive and user-friendly websites with clean code, modern
