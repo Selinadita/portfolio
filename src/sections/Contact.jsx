@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 export default function Contact() {
   return (
-    <section  id="contact" className="max-w-7xl mx-auto px-6 py-20">
+    <section id="contact" className="max-w-7xl mx-auto px-6 py-20">
       <div className="relative overflow-hidden rounded-[40px] border border-[#f5dfe7] bg-[#ffeef4] p-10 shadow-sm">
         <div className="grid lg:grid-cols-3 gap-10 items-center relative z-10">
           {/* Left Image */}
@@ -62,13 +62,6 @@ export default function Contact() {
                     Surabaya, Indonesia
                   </h4>
                 </div>
-              </div>
-            </div>
-            {/* Right Image */}
-            <div className="relative mt-8 flex justify-end">
-              {/* Flower Decoration */}
-              <div className="absolute  top-8 right-6 text-7xl">
-                <img src={assets.icon4} alt="contact" className=" w-full" />
               </div>
             </div>
           </div>
